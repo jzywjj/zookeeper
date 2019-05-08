@@ -1,35 +1,32 @@
-»ù±¾ÅäÖÃ,
+åŸºæœ¬é…ç½®,
 ,
-²ÎÊýÃû,ËµÃ÷
-clientPort,ÓÃÓÚÅäÖÃµ±Ç°·þÎñÆ÷¶ÔÍâµÄ·þÎñ¶Ë¿Ú£¬¿Í»§¶Ë»áÍ¨¹ý¸Ã¶Ë¿ÚºÍ ZooKeeper ·þÎñÆ÷´´½¨Á¬½Ó£¬Ò»°ãÉèÖÃÎª2181¡£Ã¿Ì¨ ZooKeeper ¶¼¿ÉÒÔÅäÖÃÈÎÒâ¿ÉÓÃµÄ¶Ë¿Ú£¬Í¬Ê±¼¯ÈºÖÐµÄËùÓÐ·þÎñÆ÷²»ÐèÒª±£³Ö clientPort ¶Ë¿ÚÒ»ÖÂ¡£¸Ã²ÎÊýÎÞÄ¬ÈÏÖµ£¬±ØÐëÅäÖÃ¡£
-dataDir,ÓÃÓÚÅäÖÃ ZooKeeper ·þÎñÆ÷´æ´¢¿ìÕÕÎÄ¼þµÄÄ¿Â¼¡£Ä¬ÈÏÇé¿öÏÂ£¬Èç¹ûÃ»ÓÐÅäÖÃ²ÎÊý dataLogDir£¬ÄÇÃ´ÊÂÎñÈÕÖ¾Ò²»á´æ´¢ÔÚÕâ¸öÄ¿Â¼ÖÐ¡£¿¼ÂÇµ½ÊÂÎñÈÕÖ¾µÄÐ´ÐÔÄÜÖ±½ÓÓ°Ïì ZooKeeper ÕûÌåµÄ·þÎñÄÜÁ¦£¬Òò´Ë½¨ÒéÍ¬Ê±Í¨¹ý²ÎÊý dataLogDir À´ÅäÖÃ ZooKeeper ÊÂÎñÈÕÖ¾µÄ´æ´¢Ä¿Â¼¡£¸Ã²ÎÊýÎÞÄ¬ÈÏÖµ£¬±ØÐëÅäÖÃ¡£
-tickTime,ÓÃÓÚÅäÖÃ ZooKeeper ÖÐ×îÐ¡Ê±¼äµ¥Î»µÄ³¤¶È£¬ºÜ¶àÔËÐÐÊ±µÄÊ±¼ä¼ä¸ô¶¼ÊÇÊ¹ÓÃ tickTime µÄ±¶ÊýÀ´±íÊ¾µÄ¡£ÀýÈç£¬ZooKeeper ÖÐ»á»°µÄ×îÐ¡³¬Ê±Ê±¼äÄ¬ÈÏÊÇ 2*tickTime¡£
+å‚æ•°å,è¯´æ˜Ž
+clientPort,ç”¨äºŽé…ç½®å½“å‰æœåŠ¡å™¨å¯¹å¤–çš„æœåŠ¡ç«¯å£ï¼Œå®¢æˆ·ç«¯ä¼šé€šè¿‡è¯¥ç«¯å£å’Œ ZooKeeper æœåŠ¡å™¨åˆ›å»ºè¿žæŽ¥ï¼Œä¸€èˆ¬è®¾ç½®ä¸º2181ã€‚æ¯å° ZooKeeper éƒ½å¯ä»¥é…ç½®ä»»æ„å¯ç”¨çš„ç«¯å£ï¼ŒåŒæ—¶é›†ç¾¤ä¸­çš„æ‰€æœ‰æœåŠ¡å™¨ä¸éœ€è¦ä¿æŒ clientPort ç«¯å£ä¸€è‡´ã€‚è¯¥å‚æ•°æ— é»˜è®¤å€¼ï¼Œå¿…é¡»é…ç½®ã€‚
+dataDir,ç”¨äºŽé…ç½® ZooKeeper æœåŠ¡å™¨å­˜å‚¨å¿«ç…§æ–‡ä»¶çš„ç›®å½•ã€‚é»˜è®¤æƒ…å†µä¸‹ï¼Œå¦‚æžœæ²¡æœ‰é…ç½®å‚æ•° dataLogDirï¼Œé‚£ä¹ˆäº‹åŠ¡æ—¥å¿—ä¹Ÿä¼šå­˜å‚¨åœ¨è¿™ä¸ªç›®å½•ä¸­ã€‚è€ƒè™‘åˆ°äº‹åŠ¡æ—¥å¿—çš„å†™æ€§èƒ½ç›´æŽ¥å½±å“ ZooKeeper æ•´ä½“çš„æœåŠ¡èƒ½åŠ›ï¼Œå› æ­¤å»ºè®®åŒæ—¶é€šè¿‡å‚æ•° dataLogDir æ¥é…ç½® ZooKeeper äº‹åŠ¡æ—¥å¿—çš„å­˜å‚¨ç›®å½•ã€‚è¯¥å‚æ•°æ— é»˜è®¤å€¼ï¼Œå¿…é¡»é…ç½®ã€‚
+tickTime,ç”¨äºŽé…ç½® ZooKeeper ä¸­æœ€å°æ—¶é—´å•ä½çš„é•¿åº¦ï¼Œå¾ˆå¤šè¿è¡Œæ—¶çš„æ—¶é—´é—´éš”éƒ½æ˜¯ä½¿ç”¨ tickTime çš„å€æ•°æ¥è¡¨ç¤ºçš„ã€‚ä¾‹å¦‚ï¼ŒZooKeeper ä¸­ä¼šè¯çš„æœ€å°è¶…æ—¶æ—¶é—´é»˜è®¤æ˜¯ 2*tickTimeã€‚
 ,
-¸ß¼¶ÅäÖÃ,
+é«˜çº§é…ç½®,
 ,
-²ÎÊýÃû,ËµÃ÷
-dataLogDir,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: dataDir£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ¡£²ÎÊý dataLogDir ÓÃÓÚÅäÖÃ ZooKeeper ·þÎñÆ÷´æ´¢ÊÂÎñÈÕÖ¾ÎÄ¼þµÄÄ¿Â¼¡£Ä¬ÈÏÇé¿öÏÂ£¬ZooKeeper »á½«ÊÂÎñÈÕÖ¾ÎÄ¼þºÍ¿ìÕÕÊý¾Ý´æ´¢ÔÚÍ¬Ò»Ä¿Â¼ÖÐ£¬Ó¦¸Ã¾¡Á¿½«ÕâÁ½ÕßµÄÄÁÇøÇø·Ö¿ªÀ´¡£ÁíÍâ£¬Èç¹ûÌõ¼þÔÊÐí£¬¿ÉÒÔ½«ÊÂÎñÈÕÖ¾µÄ´æ´¢Î»ÖÃÅäÖÃÔÚÒ»¸öµ¥¶ÀµÄ´ÅÅÌÉÏ¡£ÊÂÎñÈÕÖ¾¼ÇÂ¼¶ÔÓÚ´ÅÅÌµÄÐÔÄÜÒªÇó·Ç³£¸ß£¬ÎªÁË±£Ö¤Êý¾ÝµÄÒ»ÖÂÐÔ£¬ZooKeeper ÔÚ·µ»Ø¿Í»§¶ËÊÂÎñÇëÇóÏàÓ¦Ö®Ç°£¬±ØÐë½«±¾´ÎÇëÇó¶ÔÓ¦µÄÊÂÎñÈÕÖ¾Ð´Èëµ½´ÅÅÌÖÐ¡£Òò´Ë£¬ÊÂÎñÈÕÖ¾Ð´ÈëµÄÐÔÄÜÖ±½Ó¾ö¶¨ÁË ZooKeeper ÔÚ´¦ÀíÊÂÎñÇëÇóÊ±µÄÍÌÍÂ¡£Õë¶ÔÍ¬Ò»¿é´ÅÅÌµÄÆäËû²¢·¢¶ÁÐ´²Ù×÷£¨ÀýÈç ZooKeeper ÔËÐÐÊ±ÈÕÖ¾Êä³öºÍ²Ù×÷ÏµÍ³×ÔÉíµÄ¶ÁÐ´µÈ£©£¬ÓÈÆäÊÇÊý¾Ý¿ìÕÕ²Ù×÷£¬»á¼«´óµØÓ°ÏìÊÂÎñÈÕÖ¾µÄÐ´ÐÔÄÜ¡£Òò´Ë¾¡Á¿¸øÊÂÎñÈÕÖ¾µÄÊä³öÅäÖÃÒ»¸öµ¥¶ÀµÄ´ÅÅÌ»ò¹ÒÔØµã£¬½«¼«´óµØÌáÉý ZooKeeper µÄÕûÌåÐÔÄÜ¡£
-initLimit,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 10£¬¼´±íÊ¾ÊÇ²ÎÊý tickTime ÖµµÃ10±¶£¬±ØÐëÅäÖÃ£¬ÇÒÐèÒªÅäÖÃÒ»¸öÕýÕûÊý£¬²»Ö§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ Leader ·þÎñÆ÷µÈ´ý Follower Æô¶¯£¬²¢Íê³ÉÊý¾ÝÍ¬²½µÄÊ±¼ä¡£Follwer ·þÎñÆ÷ÔÙÆô¶¯¹ý³ÌÖÐ£¬»áÓë Leader ½¨Á¢Á¬½Ó²¢Íê³É¶ÔÊý¾ÝµÄÍ¬²½£¬´Ó¶øÈ·¶¨×Ô¼º¶ÔÍâÌá¹©·þÎñµÄÆäÊµ×´Ì¬¡£Leader ·þÎñÆ÷ÔÊÐí Follower ÔÚ initLimit Ê±¼äÄÚÍê³ÉÕâ¸ö¹¤×÷¡£ Í¨³£Çé¿öÏÂ£¬ÔËÎ¬ÈËÔ±²»ÓÃÌ«ÔÚÒâÕâ¸ö²ÎÊýµÄÅäÖÃ£¬Ê¹ÓÃÄ¬ÈÏÖµ¼´¿É¡£µ«Èç¹ûËæ×Å ZooKeeper ¼¯Èº¹ÜÀíµÄÊý¾ÝÁ¿Ôö´ó£¬Follower ·þÎñÆ÷ÔÙÆô¶¯µÄÊ±ºò£¬´Ó Leader ÉÏ½øÐÐÍ¬²½Êý¾ÝµÄÊ±¼äÒ²»áÏàÓ¦±ä³¤£¬ÓÚÊÇÎÞ·¨ÔÚ½Ï¶ÌµÄÊ±¼äÍê³ÉÊý¾ÝÍ¬²½¡£Òò´Ë£¬ÔÚÕâÖÖÇé¿öÏÂ£¬ÓÐ±ØÒªÊÊµ±µ÷´óÕâ¸ö²ÎÊý¡£
-syncLimit,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 5£¬¼´±íÊ¾²ÎÊý tickTime ÖµµÃ5±¶£¬±ØÐëÅäÖÃ£¬ÇÒÐèÒªÅäÖÃÒ»¸öÕýÕûÊý£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ Leader ·þÎñÆ÷ºÍ Follower ·þÎñÆ÷Ö®¼ä½øÐÐÐÄÌø¼ì²âµÄ×î´óÑÓÊ±Ê±¼ä¡£ÔÚ ZooKeeper ¼¯ÈºÔËÐÐ¹ý³ÌÖÐ£¬Leader ·þÎñÆ÷»áÓëËùÓÐµÄ Follower ½øÐÐÐÄÌø¼ì²âÀ´È·¶¨¸Ã·þÎñÆ÷ÊÇ·ñ´æ»î¡£Èç¹û Leader ·þÎñÆ÷ÔÙ syncLimit Ê±¼äÄÚÎÞ·¨»ñÈ¡µ½ Follower µÄÐÄÌø¼ì²âÏìÓ¦£¬ÄÇÃ´ Leader ¾Í»áÈÏÎª¸Ã Follower ÒÑ¾­ÍÑÀëÁËºÍ×Ô¼ºµÄÍ¬²½¡£Í¨³£Çé¿öÏÂ£¬ÔËÎ¬ÈËÔ±Ê¹ÓÃ¸Ã²ÎÊýµÄÄ¬ÈÏÖµ¼´¿É£¬µ«Èç¹û²¿ÊðZooKeeper ¼¯ÈºµÄÍøÂç»·¾³ÖÊÁ¿½ÏµÍ£¨ÀýÈçÍøÂçÑÓÊ±½Ï´ó»ò¶ª°üÑÏÖØ£©£¬ÄÇÃ´¿ÉÒÔÊÊµ±µ÷´óÕâ¸ö²ÎÊý¡£
-snapCount,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 1000£¬¿ÉÒÔ²»ÅäÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ zookeeper.snapCount¡£²ÎÊý snapCount ÓÃÓÚÅäÖÃÏàÁÚ2´ÎÊý¾Ý¿ìÕÕÖ®¼äµÄÊÂÎñ²Ù×÷´ÎÊý£¬¼´ ZooKeeper »áÔÚ snapCount ´ÎÊÂÎñ²Ù×÷Ö®ºó½øÐÐÒ»´ÎÊý¾Ý¿ìÕÕ¡£
-preAllocSize,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 65536£¬µ¥Î»ÊÇ KB£¬¼´64MB£¬¿ÉÒÔ²»ÅäÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: zookeeper.preAllocSize¡£²ÎÊý preAllocSize ÓÃÓÚÅäÖÃ ZooKeeper ÊÂÎñÈÕÖ¾ÎÄ¼þÔ¤·ÖÅäµÄ´ÅÅÌ¿Õ¼ä´óÐ¡¡£Í¨³£Çé¿öÏÂ£¬Ê¹ÓÃ ZooKeeper µÄÄ¬ÈÏÅäÖÃ 65536KB ¼´¿É£¬µ«ÊÇÈç¹ûÎÒÃÇ½«²ÎÊý snapCountÉèÖÃµÃ±ÈÄ¬ÈÏÖµ¸üÐ¡»ò¸ü´ó£¬ÄÇÃ´ preAllocSize ²ÎÊýÒ²ÒªËæÖ®×ö³ö±ä¸ü¡£¾Ù¸öÀý×ÓÀ´Ëµ: Èç¹ûÎÒÃÇ½« snapCount µÄÖµÉèÖÃÎª 500£¬Í¬Ê±Ô¤¹ÀÃ¿´ÎÊÂÎñ²Ù×÷µÄÊý¾ÝÁ¿´óÐ¡ÖÁ¶à 1KB£¬ÄÇÃ´²ÎÊý preAllocSize ÉèÖÃÎª 500¾Í×ã¹»ÁË¡£
-minSessionTimeout¡¢maxSessionTimeout,Õâ2¸ö²ÎÊýÓÐÄ¬ÈÏÖµ£¬·Ö±ðÊÇ²ÎÊý tickTime ÖµµÄ2±¶ºÍ20±¶£¬¼´Ä¬ÈÏµÄ»á»°³¬Ê±Ê±¼äÔÚ 2 * tickTime ~ 20 * tickTime ·¶Î§ÄÚ£¬µ¥Î»ÎªºÁÃë£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£Õâ2¸ö²ÎÊýÓÃÓÚ·þÎñ¶Ë¶Ô¿Í»§¶Ë»á»°µÄ³¬Ê±Ê±¼ä½øÐÐÏÞÖÆ£¬Èç¹û¿Í»§¶ËÉèÖÃµÄ³¬Ê±Ê±¼ä²»ÔÚ¸Ã·¶Î§ÄÚ£¬ÄÇÃ´»á±»·þÎñ¶ËÇ¿ÖÆÉèÖÃÎª×î´ó»ò×îÐ¡³¬Ê±Ê±¼ä¡£
-maxClientCnxns,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 60£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ¡£´Ó Socket ²ãÃæÏÞÖÆµ¥¸ö¿Í»§¶ËÓëµ¥Ì¨·þÎñÆ÷Ö®¼äµÄ²¢·¢Á¬½ÓÊý£¬¼´ÒÔ IP µØÖ·Á£¶ÈÀ´½øÐÐÁ¬½ÓÊýµÄÏÞÖÆ¡£Èç¹û½«¸Ã²ÎÊýÉèÖÃÎª0£¬Ôò±íÊ¾¶ÔÁ¬½Ó²»×öÈÎºÎÏÞÖÆ¡£ÐèÒª×¢ÒâµÄÊÇ¸ÃÁ¬½ÓÊýÏÞÖÆÑ¡ÏîµÄÊ¹ÓÃ·¶Î§½ö½öÊÇ¶Ôµ¥Ì¨¿Í»§¶Ë»úÆ÷Óëµ¥Ì¨ ZooKeeper ·þÎñÆ÷Ö®¼äµÄÁ¬½ÓÊýÏÞÖÆ£¬²¢²»ÄÜ¿ØÖÆËùÓÐ¿Í»§¶ËµÄÁ¬½ÓÊý×ÜºÍ¡£ÔÚ 3.4.0 °æ±¾ÒÔÇ°¸Ã²ÎÊýµÄÄ¬ÈÏÖµ¶¼ÊÇ 10£¬´Ó 3.4.0 °æ±¾¿ªÊ¼±ä³ÉÁË 60£¬Òò´ËÔËÎ¬ÈËÔ±ÐèÒª×¢ÒâÕâ¸ö±ä»¯£¬ÒÔ·À ZooKeeper °æ±¾±ä»¯´øÀ´·þÎñ¶ËÁ¬½ÓÊýÏÞÖÆ±ä»¯µÄÒþ»¼¡£
-jute.maxbuffer,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 1048575£¬µ¥Î»ÊÇ×Ö½Ú£¬¿ÉÒÔ²»ÅäÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: jute.maxbuffer¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃµ¥¸öÊý¾Ý½Úµã(ZNode)ÉÏ¿ÉÒÔ´æ´¢µÄ×î´óÊý¾ÝÁ¿´óÐ¡¡£Í¨³£Çé¿öÏÂ£¬ÔËÎ¬ÈËÔ±²»ÐèÒª¸Ä¶¯¸Ã²ÎÊý£¬Í¬Ê±¿¼ÂÇµ½ ZooKeeper ÉÏ²»ÊÊÒË´æ´¢Ì«¶àµÄÊý¾Ý£¬ÍùÍù»¹ÐèÒª½«¸Ã²ÎÊýÉèÖÃµÄ¸üÐ¡¡£ÐèÒª×¢ÒâµÄÊÇ£¬ÔÚ±ä¸ü¸Ã²ÎÊýµÄÊ±ºò£¬ÐèÒªÔÚ ZooKeeper ¼¯ÈºµÄËùÓÐ»úÆ÷ÒÔ¼°ËùÓÐµÄ¿Í»§¶ËÉÏ¾ùÉèÖÃ²ÅÄÜÉúÐ§¡£
-clientPortAddress,¸Ã²ÎÊýÃ»ÓÐÄ¬ÈÏÖµ£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£Õë¶ÔÄÇÐ©¶àÍø¿¨µÄ»úÆ÷£¬¸Ã²ÎÊýÔÊÐíÎªÃ¿¸ö IP µØÖ·Ö¸¶¨²»Í¬µÄ¼àÌý¶Ë¿Ú¡£
-server.id=host:port:port,¸Ã²ÎÊýÃ»ÓÐÄ¬ÈÏÖµ£¬ÔÚµ¥»úÄ£Ê½ÏÂ¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ×é³É ZooKeeper ¼¯ÈºµÄ»úÆ÷ÁÐ±í£¬ÆäÖÐ id ¼´Îª Server ID£¬ÓëÃ¿Ì¨·þÎñÆ÷ myid ÎÄ¼þÖÐµÄÊý×ÖÏà¶ÔÓ¦¡£Í¬Ê±£¬ÔÚ¸Ã²ÎÊýÖÐ»áÅäÖÃ2¸ö¶Ë¿Ú£¬µÚÒ»¸ö¶Ë¿ÚÓÃÓÚÖ¸¶¨ Follower ·þÎñÆ÷Óë Leader ½øÐÐÔËÐÐÊ±Í¨ÐÅºÍÊý¾ÝÍ¬²½Ê±ËùÊ¹ÓÃµÄ¶Ë¿Ú£¬µÚ¶þ¸ö¶Ë¿ÚÔò×¨ÃÅÓÃÓÚ½øÐÐ Leader Ñ¡¾Ù¹ý³ÌÖÐµÄÍ¶Æ±Í¨ÐÅ¡£ÔÚ ZooKeeper ·þÎñÆô¶¯µÄÊ±ºò£¬Æä»á¸ù¾Ý myid ÎÄ¼þÖÐÅäÖÃµÄ Server IDÀ´È·¶¨×Ô¼ºÊÇÄÇÌ¨·þÎñÆ÷£¬²¢Ê¹ÓÃ¶ÔÓ¦ÅäÖÃµÄ¶Ë¿ÚÀ´½øÐÐÆô¶¯¡£Èç¹ûÔÚÊµ¼ÊÊ¹ÓÃ¹ý³ÌÖÐ£¬ÐèÒªÔÚÍ¬Ò»Ì¨·þÎñÆ÷ÉÏ²¿Êð¶à¸ö ZooKeeper Ê¾ÀýÀ´¹¹³ÉÎ±¼¯ÈºµÄ»°£¬ÄÇÃ´ÕâÐ©¶Ë¿Ú¶¼ÐèÒªÅäÖÃ³É²»Í¨¹ýÈç: server.1=192.168.o.1:2777:3777 server.1=192.168.o.1:2888:3888 server.1=192.168.o.1:2999:3999
-autopurge.snapRetainCount,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 3£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£´Ó 3.4.0 °æ±¾¿ªÊ¼£¬ZooKeeper Ìá¹©ÁË¶ÔÀúÊ·ÊÂÎñÈÕÖ¾ºÍ¿ìÕÕÊý¾Ý×Ô¶¯ÇåÀíµÄÖ§³Ö¡£²ÎÊý autopurge.snapRetainCount ÓÃÓÚÅäÖÃ ZooKeeper ÔÚ×Ô¶¯ÇåÀíµÄÊ±ºòÐèÒª±£ÁôµÄ¿ìÕÕÊý¾ÝÎÄ¼þÊýÁ¿ºÍ¶ÔÓ¦µÄÊÂÎñÈÕÖ¾ÎÄ¼þ¡£ÐèÒª×¢ÒâµÄÊÇ£¬²¢²»ÊÇ´ÅÅÌÉÏµÄËùÓÐÊÂÎñÈÕÖ¾ºÍ¿ìÕÕÊý¾ÝÎÄ¼þ¶¼¿ÉÒÔ±»ÇåÀíµô---ÄÇÑùµÄ»°½«ÎÞ·¨»Ö¸´Êý¾Ý¡£Òò´Ë²ÎÊý autopurge.snapRetainCount µÄ×îÐ¡ÖµÊÇ 3£¬Èç¹ûÅäÖÃµÄ autopurge.snapRetainCount Öµ±È 3 Ð¡µÄ»°£¬ÄÇÃ´»á±»×Ô¶¯µ÷Õûµ½ 3£¬¼´ÖÁÉÙÐèÒª±£Áô3¸ö¿ìÕÕÊý¾ÝÎÄ¼þºÍ¶ÔÓ¦µÄÊÂÎñÈÕÖ¾ÎÄ¼þ¡£
-autopurge.purgeInterval,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 0£¬µ¥Î»ÊÇÐ¡Ê±£¬¿ÉÒÔ²»ÅäÖÃ£¬²»Ö§³ÖÏµÍ³ÊôÐÔÅäÖÃ¡£²ÎÊý autopurge.purgeInterval ºÍ²ÎÊý autopurge.snapRetainCount ÅäÌ×Ê¹ÓÃ£¬Í¬ÓÚÅäÖÃ ZooKeeper ½øÐÐÀúÊ·ÎÄ¼þ×Ô¶¯ÇåÀíµÄÆµÂÊ¡£Èç¹ûÅäÖÃ¸ÃÖµÎª 0»ò¸ºÊý£¬ÄÇÃ´¾Í±íÃ÷²»ÐèÒª¿ªÆô¶¨Ê±ÇåÀí¹¦ÄÜ¡£ZooKeeper Ä¬ÈÏ²»¿ªÆôÕâÏî¹¦ÄÜ¡£
-fsync.warningthresholdms,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 1000£¬µ¥Î»ÊÇºÁÃë£¬¿ÉÒÔ²»ÅäÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: fsync.warningthresholdms¡£²ÎÊý fsync.warningthresholdms ÓÃÓÚÅäÖÃ ZooKeeper ½øÐÐÊÂÎñÈÕÖ¾ fsync ²Ù×÷Ê±ÏûºÄÊ±¼äµÄ±¨¾¯ãÐÖµ¡£Ò»µ©½øÐÐÒ»¸ö fsync ²Ù×÷ÏûºÄµÄÊ±¼ä´óÓÚ²ÎÊý fsync.warningthresholdms Ö¸¶¨µÄÖµ£¬ÄÇÃ´¾ÍÔÚÈÕÖ¾ÖÐ´òÓ¡³ö±¨¾¯ÈÕÖ¾¡£
-forceSync,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: yes£¬¿ÉÒÔ²»ÅäÖÃ£¬¿ÉÑ¡ÅäÖÃÏîÎª"yes" ºÍ "no"£¬½öÖ§³ÖÏµÍ³ÊôÐÔÅäÖÃ: zookeeper.forceSync¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ ZooKeeper ·þÎñÆ÷ÊÇ·ñÔÚÊÂÎñÌá½»µÄÊ±ºò£¬½«ÈÕÖ¾Ð´Èë²Ù×÷Ç¿ÖÆË¢Èë´ÅÅÌ£¨¼´µ÷ÓÃ java.nio.channels.FileChannel.force ½Ó¿Ú£©£¬Ä¬ÈÏÇé¿öÏÂÊÇ¡°yes¡±£¬¼´Ã¿´ÎÊÂÎñÈÕÖ¾Ð´Èë²Ù×÷¶¼»áÊµÊ±Ë¢Èë´ÅÅÌ¡£Èç¹û½«ÆäÉèÖÃÎª¡°no¡±£¬ÔòÄÜÒ»¶¨³Ì¶ÈµÄÌá¸ßZooKeeper µÄÐ´ÐÔÄÜ£¬µ«Í¬Ê±Ò²»á´æÔÚÀàËÆÓÚ»úÆ÷¶ÏµçÕâÑùµÄ°²È«·çÏÕ¡£
-globalOutstandingLimit,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 1000£¬¿ÉÒÔ²»ÅäÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: zookeeper.globalOutstandingLimit¡£²ÎÊý globalOutstandingLimit ÓÃÓÚÅäÖÃ ZooKeeper ·þÎñÆ÷×î´óÇëÇó¶Ñ»ýÊýÁ¿¡£ÔÚ ZooKeeper ·þÎñÆ÷ÔËÐÐµÄ¹ý³ÌÖÐ£¬¿Í»§¶Ë»áÔ´Ô´²»¶ÏµÄÇëÇó·¢ËÍµ½·þÎñÆ÷£¬ÎªÁË·ÀÖ¹·þÎñÆ÷×ÊÔ´£¨°üÀ¨ CPU¡¢ÄÚ´æºÍÍøÂçµÈ£©ºÄ¾¡£¬·þÎñ¶Ë±ØÐëÏÞÖÆÍ¬Ê±´¦ÀíµÄÇëÇóÊý£¬¼´×î´óÇëÇó¶Ñ»ýÊýÁ¿¡£
-leaderServers,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: yes£¬¿ÉÒÔ²»ÅäÖÃ£¬¿ÉÑ¡ÅäÖÃÏîÎª"yes" ºÍ "no"£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: zookeeper.leaderServers¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ Leader ·þÎñÆ÷ÊÇ·ñÄÜ¹»½ÓÊÜ¿Í»§¶ËµÄÁ¬½Ó£¬¼´ÊÇ·ñÔÊÐí Leader Ïë¿Í»§¶ËÌá¹©·þÎñ£¬Ä¬ÈÏÇé¿öÏÂ£¬Leader ·þÎñÆ÷ÄÜ¹»½ÓÊÜ²¢´¦Àí¿Í»§¶ËµÄËùÓÐ¶ÁÐ´ÇëÇó¡£ÔÚ ZooKeeper µÄ¼Ü¹¹Éè¼ÆÖÐ£¬Leader ·þÎñÆ÷Ö÷ÒªÓÃÀ´½øÐÐÊµÎï¸üÐÂÇëÇóµÄÐ­µ÷ÒÔ¼°¼¯Èº±¾Ê¡ÔËÐÐÊ±Ð­µ÷£¬Òò´Ë£¬¿ÉÒÔÉèÖÃÈÃ Leader ·þÎñÆ÷²»½ÓÊÜ¿Í»§¶ËµÄÁ¬½Ó£¬ÒÔÊ¹Æä×¨×¢ÓÚ½øÐÐ·Ö²¼Ê½Ð­µ÷¡£
-skipAcl,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: no£¬¿ÉÒÔ²»ÅäÖÃ£¬¿ÉÑ¡ÅäÖÃÏîÎª"yes" ºÍ "no"£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: zookeeper.skipAcl¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃ ZooKeeper ·þÎñÆ÷ÊÇ·ñÌø¹ý ACL È¨ÏÞ¼ì²é£¬Ä¬ÈÏÇé¿öÏÂÊÇ"no"£¬¼´»á¶ÔÃ¿Ò»´Î¿Í»§¶ËÇëÇó½øÐÐÈ¨ÏÞ¼ì²é¡£Èç¹û½«ÆäÉèÖÃÎª"yes"£¬ÔòÄÜÒ»¶¨³Ì¶ÈµÄÌá¸ß ZooKeeper µÄ¶ÁÐ´ÐÔÄÜ£¬µ¥Í¬Ê±Ò²½«ÏòËùÓÐ¿Í»§¶Ë¿ª·Å ZooKeeper µÄÊý¾Ý£¬°üÀ¨ÄÇÐ©Ö®Ç°ÉèÖÃ¹ý ACL È¨ÏÞµÄÊý¾Ý½Úµã£¬Ò²½«²»ÔÚ½ÓÊÜÈ¨ÏÞ¿ØÖÆ¡£
-cnxTimeout,¸Ã²ÎÊýÓÐÄ¬ÈÏÖµ: 5000£¬µ¥Î»ÊÇºÁÃë£¬¿ÉÒÔ²»ÉèÖÃ£¬½öÖ§³ÖÏµÍ³ÊôÐÔ·½Ê½ÅäÖÃ: zookeeper.cnxTimeout¡£¸Ã²ÎÊýÓÃÓÚÅäÖÃÔÚ Leader Ñ¡¾Ù¹ý³ÌÖÐ£¬Èç·þÎñÆ÷Ö®¼ä½øÐÐ TCP Á¬½Ó´´½¨µÄ³¬Ê±Ê±¼ä¡£
-electionAlf,ÔÚÖ®Ç°µÄ°æ±¾ÖÐ£¬¿ÉÒÔÊ¹ÓÃ¸Ã²ÎÊýÀ´ÅäÖÃÑ¡Ôñ ZooKeeper ½øÐÐ Leader Ñ¡¾ÙÊ±ËùÊ¹ÓÃµÄËã·¨£¬µ«´Ó 3.4.0 °æ±¾¿ªÊ¼£¬ZooKeeper ·ÏÆúÁËÆäËûÑ¡¾ÙËã·¨£¬Ö»ÁôÏÂ FastLeaderElection Ëã·¨£¬Òò´Ë¸Ã²ÎÊýÄ¿Ç°¿´À´Ã»ÓÐÓÃÁË¡£
+å‚æ•°å,è¯´æ˜Ž
+dataLogDir,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: dataDirï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®ã€‚å‚æ•° dataLogDir ç”¨äºŽé…ç½® ZooKeeper æœåŠ¡å™¨å­˜å‚¨äº‹åŠ¡æ—¥å¿—æ–‡ä»¶çš„ç›®å½•ã€‚é»˜è®¤æƒ…å†µä¸‹ï¼ŒZooKeeper ä¼šå°†äº‹åŠ¡æ—¥å¿—æ–‡ä»¶å’Œå¿«ç…§æ•°æ®å­˜å‚¨åœ¨åŒä¸€ç›®å½•ä¸­ï¼Œåº”è¯¥å°½é‡å°†è¿™ä¸¤è€…çš„ç‰§åŒºåŒºåˆ†å¼€æ¥ã€‚å¦å¤–ï¼Œå¦‚æžœæ¡ä»¶å…è®¸ï¼Œå¯ä»¥å°†äº‹åŠ¡æ—¥å¿—çš„å­˜å‚¨ä½ç½®é…ç½®åœ¨ä¸€ä¸ªå•ç‹¬çš„ç£ç›˜ä¸Šã€‚äº‹åŠ¡æ—¥å¿—è®°å½•å¯¹äºŽç£ç›˜çš„æ€§èƒ½è¦æ±‚éžå¸¸é«˜ï¼Œä¸ºäº†ä¿è¯æ•°æ®çš„ä¸€è‡´æ€§ï¼ŒZooKeeper åœ¨è¿”å›žå®¢æˆ·ç«¯äº‹åŠ¡è¯·æ±‚ç›¸åº”ä¹‹å‰ï¼Œå¿…é¡»å°†æœ¬æ¬¡è¯·æ±‚å¯¹åº”çš„äº‹åŠ¡æ—¥å¿—å†™å…¥åˆ°ç£ç›˜ä¸­ã€‚å› æ­¤ï¼Œäº‹åŠ¡æ—¥å¿—å†™å…¥çš„æ€§èƒ½ç›´æŽ¥å†³å®šäº† ZooKeeper åœ¨å¤„ç†äº‹åŠ¡è¯·æ±‚æ—¶çš„åžåã€‚é’ˆå¯¹åŒä¸€å—ç£ç›˜çš„å…¶ä»–å¹¶å‘è¯»å†™æ“ä½œï¼ˆä¾‹å¦‚ ZooKeeper è¿è¡Œæ—¶æ—¥å¿—è¾“å‡ºå’Œæ“ä½œç³»ç»Ÿè‡ªèº«çš„è¯»å†™ç­‰ï¼‰ï¼Œå°¤å…¶æ˜¯æ•°æ®å¿«ç…§æ“ä½œï¼Œä¼šæžå¤§åœ°å½±å“äº‹åŠ¡æ—¥å¿—çš„å†™æ€§èƒ½ã€‚å› æ­¤å°½é‡ç»™äº‹åŠ¡æ—¥å¿—çš„è¾“å‡ºé…ç½®ä¸€ä¸ªå•ç‹¬çš„ç£ç›˜æˆ–æŒ‚è½½ç‚¹ï¼Œå°†æžå¤§åœ°æå‡ ZooKeeper çš„æ•´ä½“æ€§èƒ½ã€‚
+initLimit,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 10ï¼Œå³è¡¨ç¤ºæ˜¯å‚æ•° tickTime å€¼å¾—10å€ï¼Œå¿…é¡»é…ç½®ï¼Œä¸”éœ€è¦é…ç½®ä¸€ä¸ªæ­£æ•´æ•°ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®ã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½® Leader æœåŠ¡å™¨ç­‰å¾… Follower å¯åŠ¨ï¼Œå¹¶å®Œæˆæ•°æ®åŒæ­¥çš„æ—¶é—´ã€‚Follwer æœåŠ¡å™¨å†å¯åŠ¨è¿‡ç¨‹ä¸­ï¼Œä¼šä¸Ž Leader å»ºç«‹è¿žæŽ¥å¹¶å®Œæˆå¯¹æ•°æ®çš„åŒæ­¥ï¼Œä»Žè€Œç¡®å®šè‡ªå·±å¯¹å¤–æä¾›æœåŠ¡çš„å…¶å®žçŠ¶æ€ã€‚Leader æœåŠ¡å™¨å…è®¸ Follower åœ¨ initLimit æ—¶é—´å†…å®Œæˆè¿™ä¸ªå·¥ä½œã€‚ é€šå¸¸æƒ…å†µä¸‹ï¼Œè¿ç»´äººå‘˜ä¸ç”¨å¤ªåœ¨æ„è¿™ä¸ªå‚æ•°çš„é…ç½®ï¼Œä½¿ç”¨é»˜è®¤å€¼å³å¯ã€‚ä½†å¦‚æžœéšç€ ZooKeeper é›†ç¾¤ç®¡ç†çš„æ•°æ®é‡å¢žå¤§ï¼ŒFollower æœåŠ¡å™¨å†å¯åŠ¨çš„æ—¶å€™ï¼Œä»Ž Leader ä¸Šè¿›è¡ŒåŒæ­¥æ•°æ®çš„æ—¶é—´ä¹Ÿä¼šç›¸åº”å˜é•¿ï¼ŒäºŽæ˜¯æ— æ³•åœ¨è¾ƒçŸ­çš„æ—¶é—´å®Œæˆæ•°æ®åŒæ­¥ã€‚å› æ­¤ï¼Œåœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œæœ‰å¿…è¦é€‚å½“è°ƒå¤§è¿™ä¸ªå‚æ•°ã€‚
+syncLimit,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 5ï¼Œå³è¡¨ç¤ºå‚æ•° tickTime å€¼å¾—5å€ï¼Œå¿…é¡»é…ç½®ï¼Œä¸”éœ€è¦é…ç½®ä¸€ä¸ªæ­£æ•´æ•°ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½® Leader æœåŠ¡å™¨å’Œ Follower æœåŠ¡å™¨ä¹‹é—´è¿›è¡Œå¿ƒè·³æ£€æµ‹çš„æœ€å¤§å»¶æ—¶æ—¶é—´ã€‚åœ¨ ZooKeeper é›†ç¾¤è¿è¡Œè¿‡ç¨‹ä¸­ï¼ŒLeader æœåŠ¡å™¨ä¼šä¸Žæ‰€æœ‰çš„ Follower è¿›è¡Œå¿ƒè·³æ£€æµ‹æ¥ç¡®å®šè¯¥æœåŠ¡å™¨æ˜¯å¦å­˜æ´»ã€‚å¦‚æžœ Leader æœåŠ¡å™¨å† syncLimit æ—¶é—´å†…æ— æ³•èŽ·å–åˆ° Follower çš„å¿ƒè·³æ£€æµ‹å“åº”ï¼Œé‚£ä¹ˆ Leader å°±ä¼šè®¤ä¸ºè¯¥ Follower å·²ç»è„±ç¦»äº†å’Œè‡ªå·±çš„åŒæ­¥ã€‚é€šå¸¸æƒ…å†µä¸‹ï¼Œè¿ç»´äººå‘˜ä½¿ç”¨è¯¥å‚æ•°çš„é»˜è®¤å€¼å³å¯ï¼Œä½†å¦‚æžœéƒ¨ç½²ZooKeeper é›†ç¾¤çš„ç½‘ç»œçŽ¯å¢ƒè´¨é‡è¾ƒä½Žï¼ˆä¾‹å¦‚ç½‘ç»œå»¶æ—¶è¾ƒå¤§æˆ–ä¸¢åŒ…ä¸¥é‡ï¼‰ï¼Œé‚£ä¹ˆå¯ä»¥é€‚å½“è°ƒå¤§è¿™ä¸ªå‚æ•°ã€‚
+snapCount,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 1000ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½® zookeeper.snapCountã€‚å‚æ•° snapCount ç”¨äºŽé…ç½®ç›¸é‚»2æ¬¡æ•°æ®å¿«ç…§ä¹‹é—´çš„äº‹åŠ¡æ“ä½œæ¬¡æ•°ï¼Œå³ ZooKeeper ä¼šåœ¨ snapCount æ¬¡äº‹åŠ¡æ“ä½œä¹‹åŽè¿›è¡Œä¸€æ¬¡æ•°æ®å¿«ç…§ã€‚
+preAllocSize,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 65536ï¼Œå•ä½æ˜¯ KBï¼Œå³64MBï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: zookeeper.preAllocSizeã€‚å‚æ•° preAllocSize ç”¨äºŽé…ç½® ZooKeeper äº‹åŠ¡æ—¥å¿—æ–‡ä»¶é¢„åˆ†é…çš„ç£ç›˜ç©ºé—´å¤§å°ã€‚é€šå¸¸æƒ…å†µä¸‹ï¼Œä½¿ç”¨ ZooKeeper çš„é»˜è®¤é…ç½® 65536KB å³å¯ï¼Œä½†æ˜¯å¦‚æžœæˆ‘ä»¬å°†å‚æ•° snapCountè®¾ç½®å¾—æ¯”é»˜è®¤å€¼æ›´å°æˆ–æ›´å¤§ï¼Œé‚£ä¹ˆ preAllocSize å‚æ•°ä¹Ÿè¦éšä¹‹åšå‡ºå˜æ›´ã€‚ä¸¾ä¸ªä¾‹å­æ¥è¯´: å¦‚æžœæˆ‘ä»¬å°† snapCount çš„å€¼è®¾ç½®ä¸º 500ï¼ŒåŒæ—¶é¢„ä¼°æ¯æ¬¡äº‹åŠ¡æ“ä½œçš„æ•°æ®é‡å¤§å°è‡³å¤š 1KBï¼Œé‚£ä¹ˆå‚æ•° preAllocSize è®¾ç½®ä¸º 500å°±è¶³å¤Ÿäº†ã€‚
+minSessionTimeoutã€maxSessionTimeout,è¿™2ä¸ªå‚æ•°æœ‰é»˜è®¤å€¼ï¼Œåˆ†åˆ«æ˜¯å‚æ•° tickTime å€¼çš„2å€å’Œ20å€ï¼Œå³é»˜è®¤çš„ä¼šè¯è¶…æ—¶æ—¶é—´åœ¨ 2 * tickTime ~ 20 * tickTime èŒƒå›´å†…ï¼Œå•ä½ä¸ºæ¯«ç§’ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚è¿™2ä¸ªå‚æ•°ç”¨äºŽæœåŠ¡ç«¯å¯¹å®¢æˆ·ç«¯ä¼šè¯çš„è¶…æ—¶æ—¶é—´è¿›è¡Œé™åˆ¶ï¼Œå¦‚æžœå®¢æˆ·ç«¯è®¾ç½®çš„è¶…æ—¶æ—¶é—´ä¸åœ¨è¯¥èŒƒå›´å†…ï¼Œé‚£ä¹ˆä¼šè¢«æœåŠ¡ç«¯å¼ºåˆ¶è®¾ç½®ä¸ºæœ€å¤§æˆ–æœ€å°è¶…æ—¶æ—¶é—´ã€‚
+maxClientCnxns,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 60ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®ã€‚ä»Ž Socket å±‚é¢é™åˆ¶å•ä¸ªå®¢æˆ·ç«¯ä¸Žå•å°æœåŠ¡å™¨ä¹‹é—´çš„å¹¶å‘è¿žæŽ¥æ•°ï¼Œå³ä»¥ IP åœ°å€ç²’åº¦æ¥è¿›è¡Œè¿žæŽ¥æ•°çš„é™åˆ¶ã€‚å¦‚æžœå°†è¯¥å‚æ•°è®¾ç½®ä¸º0ï¼Œåˆ™è¡¨ç¤ºå¯¹è¿žæŽ¥ä¸åšä»»ä½•é™åˆ¶ã€‚éœ€è¦æ³¨æ„çš„æ˜¯è¯¥è¿žæŽ¥æ•°é™åˆ¶é€‰é¡¹çš„ä½¿ç”¨èŒƒå›´ä»…ä»…æ˜¯å¯¹å•å°å®¢æˆ·ç«¯æœºå™¨ä¸Žå•å° ZooKeeper æœåŠ¡å™¨ä¹‹é—´çš„è¿žæŽ¥æ•°é™åˆ¶ï¼Œå¹¶ä¸èƒ½æŽ§åˆ¶æ‰€æœ‰å®¢æˆ·ç«¯çš„è¿žæŽ¥æ•°æ€»å’Œã€‚åœ¨ 3.4.0 ç‰ˆæœ¬ä»¥å‰è¯¥å‚æ•°çš„é»˜è®¤å€¼éƒ½æ˜¯ 10ï¼Œä»Ž 3.4.0 ç‰ˆæœ¬å¼€å§‹å˜æˆäº† 60ï¼Œå› æ­¤è¿ç»´äººå‘˜éœ€è¦æ³¨æ„è¿™ä¸ªå˜åŒ–ï¼Œä»¥é˜² ZooKeeper ç‰ˆæœ¬å˜åŒ–å¸¦æ¥æœåŠ¡ç«¯è¿žæŽ¥æ•°é™åˆ¶å˜åŒ–çš„éšæ‚£ã€‚
+jute.maxbuffer,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 1048575ï¼Œå•ä½æ˜¯å­—èŠ‚ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: jute.maxbufferã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½®å•ä¸ªæ•°æ®èŠ‚ç‚¹(ZNode)ä¸Šå¯ä»¥å­˜å‚¨çš„æœ€å¤§æ•°æ®é‡å¤§å°ã€‚é€šå¸¸æƒ…å†µä¸‹ï¼Œè¿ç»´äººå‘˜ä¸éœ€è¦æ”¹åŠ¨è¯¥å‚æ•°ï¼ŒåŒæ—¶è€ƒè™‘åˆ° ZooKeeper ä¸Šä¸é€‚å®œå­˜å‚¨å¤ªå¤šçš„æ•°æ®ï¼Œå¾€å¾€è¿˜éœ€è¦å°†è¯¥å‚æ•°è®¾ç½®çš„æ›´å°ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œåœ¨å˜æ›´è¯¥å‚æ•°çš„æ—¶å€™ï¼Œéœ€è¦åœ¨ ZooKeeper é›†ç¾¤çš„æ‰€æœ‰æœºå™¨ä»¥åŠæ‰€æœ‰çš„å®¢æˆ·ç«¯ä¸Šå‡è®¾ç½®æ‰èƒ½ç”Ÿæ•ˆã€‚
+clientPortAddress,è¯¥å‚æ•°æ²¡æœ‰é»˜è®¤å€¼ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚é’ˆå¯¹é‚£äº›å¤šç½‘å¡çš„æœºå™¨ï¼Œè¯¥å‚æ•°å…è®¸ä¸ºæ¯ä¸ª IP åœ°å€æŒ‡å®šä¸åŒçš„ç›‘å¬ç«¯å£ã€‚
+server.id=host:port:port,è¯¥å‚æ•°æ²¡æœ‰é»˜è®¤å€¼ï¼Œåœ¨å•æœºæ¨¡å¼ä¸‹å¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½®ç»„æˆ ZooKeeper é›†ç¾¤çš„æœºå™¨åˆ—è¡¨ï¼Œå…¶ä¸­ id å³ä¸º Server IDï¼Œä¸Žæ¯å°æœåŠ¡å™¨ myid æ–‡ä»¶ä¸­çš„æ•°å­—ç›¸å¯¹åº”ã€‚åŒæ—¶ï¼Œåœ¨è¯¥å‚æ•°ä¸­ä¼šé…ç½®2ä¸ªç«¯å£ï¼Œç¬¬ä¸€ä¸ªç«¯å£ç”¨äºŽæŒ‡å®š Follower æœåŠ¡å™¨ä¸Ž Leader è¿›è¡Œè¿è¡Œæ—¶é€šä¿¡å’Œæ•°æ®åŒæ­¥æ—¶æ‰€ä½¿ç”¨çš„ç«¯å£ï¼Œç¬¬äºŒä¸ªç«¯å£åˆ™ä¸“é—¨ç”¨äºŽè¿›è¡Œ Leader é€‰ä¸¾è¿‡ç¨‹ä¸­çš„æŠ•ç¥¨é€šä¿¡ã€‚åœ¨ ZooKeeper æœåŠ¡å¯åŠ¨çš„æ—¶å€™ï¼Œå…¶ä¼šæ ¹æ® myid æ–‡ä»¶ä¸­é…ç½®çš„ Server IDæ¥ç¡®å®šè‡ªå·±æ˜¯é‚£å°æœåŠ¡å™¨ï¼Œå¹¶ä½¿ç”¨å¯¹åº”é…ç½®çš„ç«¯å£æ¥è¿›è¡Œå¯åŠ¨ã€‚å¦‚æžœåœ¨å®žé™…ä½¿ç”¨è¿‡ç¨‹ä¸­ï¼Œéœ€è¦åœ¨åŒä¸€å°æœåŠ¡å™¨ä¸Šéƒ¨ç½²å¤šä¸ª ZooKeeper ç¤ºä¾‹æ¥æž„æˆä¼ªé›†ç¾¤çš„è¯ï¼Œé‚£ä¹ˆè¿™äº›ç«¯å£éƒ½éœ€è¦é…ç½®æˆä¸é€šè¿‡å¦‚: server.1=192.168.o.1:2777:3777 server.1=192.168.o.1:2888:3888 server.1=192.168.o.1:2999:3999
+autopurge.snapRetainCount,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 3ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚ä»Ž 3.4.0 ç‰ˆæœ¬å¼€å§‹ï¼ŒZooKeeper æä¾›äº†å¯¹åŽ†å²äº‹åŠ¡æ—¥å¿—å’Œå¿«ç…§æ•°æ®è‡ªåŠ¨æ¸…ç†çš„æ”¯æŒã€‚å‚æ•° autopurge.snapRetainCount ç”¨äºŽé…ç½® ZooKeeper åœ¨è‡ªåŠ¨æ¸…ç†çš„æ—¶å€™éœ€è¦ä¿ç•™çš„å¿«ç…§æ•°æ®æ–‡ä»¶æ•°é‡å’Œå¯¹åº”çš„äº‹åŠ¡æ—¥å¿—æ–‡ä»¶ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œå¹¶ä¸æ˜¯ç£ç›˜ä¸Šçš„æ‰€æœ‰äº‹åŠ¡æ—¥å¿—å’Œå¿«ç…§æ•°æ®æ–‡ä»¶éƒ½å¯ä»¥è¢«æ¸…ç†æŽ‰---é‚£æ ·çš„è¯å°†æ— æ³•æ¢å¤æ•°æ®ã€‚å› æ­¤å‚æ•° autopurge.snapRetainCount çš„æœ€å°å€¼æ˜¯ 3ï¼Œå¦‚æžœé…ç½®çš„ autopurge.snapRetainCount å€¼æ¯” 3 å°çš„è¯ï¼Œé‚£ä¹ˆä¼šè¢«è‡ªåŠ¨è°ƒæ•´åˆ° 3ï¼Œå³è‡³å°‘éœ€è¦ä¿ç•™3ä¸ªå¿«ç…§æ•°æ®æ–‡ä»¶å’Œå¯¹åº”çš„äº‹åŠ¡æ—¥å¿—æ–‡ä»¶ã€‚
+autopurge.purgeInterval,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 0ï¼Œå•ä½æ˜¯å°æ—¶ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä¸æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®ã€‚å‚æ•° autopurge.purgeInterval å’Œå‚æ•° autopurge.snapRetainCount é…å¥—ä½¿ç”¨ï¼ŒåŒäºŽé…ç½® ZooKeeper è¿›è¡ŒåŽ†å²æ–‡ä»¶è‡ªåŠ¨æ¸…ç†çš„é¢‘çŽ‡ã€‚å¦‚æžœé…ç½®è¯¥å€¼ä¸º 0æˆ–è´Ÿæ•°ï¼Œé‚£ä¹ˆå°±è¡¨æ˜Žä¸éœ€è¦å¼€å¯å®šæ—¶æ¸…ç†åŠŸèƒ½ã€‚ZooKeeper é»˜è®¤ä¸å¼€å¯è¿™é¡¹åŠŸèƒ½ã€‚
+fsync.warningthresholdms,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 1000ï¼Œå•ä½æ˜¯æ¯«ç§’ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: fsync.warningthresholdmsã€‚å‚æ•° fsync.warningthresholdms ç”¨äºŽé…ç½® ZooKeeper è¿›è¡Œäº‹åŠ¡æ—¥å¿— fsync æ“ä½œæ—¶æ¶ˆè€—æ—¶é—´çš„æŠ¥è­¦é˜ˆå€¼ã€‚ä¸€æ—¦è¿›è¡Œä¸€ä¸ª fsync æ“ä½œæ¶ˆè€—çš„æ—¶é—´å¤§äºŽå‚æ•° fsync.warningthresholdms æŒ‡å®šçš„å€¼ï¼Œé‚£ä¹ˆå°±åœ¨æ—¥å¿—ä¸­æ‰“å°å‡ºæŠ¥è­¦æ—¥å¿—ã€‚
+forceSync,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: yesï¼Œå¯ä»¥ä¸é…ç½®ï¼Œå¯é€‰é…ç½®é¡¹ä¸º"yes" å’Œ "no"ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§é…ç½®: zookeeper.forceSyncã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½® ZooKeeper æœåŠ¡å™¨æ˜¯å¦åœ¨äº‹åŠ¡æäº¤çš„æ—¶å€™ï¼Œå°†æ—¥å¿—å†™å…¥æ“ä½œå¼ºåˆ¶åˆ·å…¥ç£ç›˜ï¼ˆå³è°ƒç”¨ java.nio.channels.FileChannel.force æŽ¥å£ï¼‰ï¼Œé»˜è®¤æƒ…å†µä¸‹æ˜¯â€œyesâ€ï¼Œå³æ¯æ¬¡äº‹åŠ¡æ—¥å¿—å†™å…¥æ“ä½œéƒ½ä¼šå®žæ—¶åˆ·å…¥ç£ç›˜ã€‚å¦‚æžœå°†å…¶è®¾ç½®ä¸ºâ€œnoâ€ï¼Œåˆ™èƒ½ä¸€å®šç¨‹åº¦çš„æé«˜ZooKeeper çš„å†™æ€§èƒ½ï¼Œä½†åŒæ—¶ä¹Ÿä¼šå­˜åœ¨ç±»ä¼¼äºŽæœºå™¨æ–­ç”µè¿™æ ·çš„å®‰å…¨é£Žé™©ã€‚
+globalOutstandingLimit,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 1000ï¼Œå¯ä»¥ä¸é…ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: zookeeper.globalOutstandingLimitã€‚å‚æ•° globalOutstandingLimit ç”¨äºŽé…ç½® ZooKeeper æœåŠ¡å™¨æœ€å¤§è¯·æ±‚å †ç§¯æ•°é‡ã€‚åœ¨ ZooKeeper æœåŠ¡å™¨è¿è¡Œçš„è¿‡ç¨‹ä¸­ï¼Œå®¢æˆ·ç«¯ä¼šæºæºä¸æ–­çš„è¯·æ±‚å‘é€åˆ°æœåŠ¡å™¨ï¼Œä¸ºäº†é˜²æ­¢æœåŠ¡å™¨èµ„æºï¼ˆåŒ…æ‹¬ CPUã€å†…å­˜å’Œç½‘ç»œç­‰ï¼‰è€—å°½ï¼ŒæœåŠ¡ç«¯å¿…é¡»é™åˆ¶åŒæ—¶å¤„ç†çš„è¯·æ±‚æ•°ï¼Œå³æœ€å¤§è¯·æ±‚å †ç§¯æ•°é‡ã€‚
+leaderServers,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: yesï¼Œå¯ä»¥ä¸é…ç½®ï¼Œå¯é€‰é…ç½®é¡¹ä¸º"yes" å’Œ "no"ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: zookeeper.leaderServersã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½® Leader æœåŠ¡å™¨æ˜¯å¦èƒ½å¤ŸæŽ¥å—å®¢æˆ·ç«¯çš„è¿žæŽ¥ï¼Œå³æ˜¯å¦å…è®¸ Leader æƒ³å®¢æˆ·ç«¯æä¾›æœåŠ¡ï¼Œé»˜è®¤æƒ…å†µä¸‹ï¼ŒLeader æœåŠ¡å™¨èƒ½å¤ŸæŽ¥å—å¹¶å¤„ç†å®¢æˆ·ç«¯çš„æ‰€æœ‰è¯»å†™è¯·æ±‚ã€‚åœ¨ ZooKeeper çš„æž¶æž„è®¾è®¡ä¸­ï¼ŒLeader æœåŠ¡å™¨ä¸»è¦ç”¨æ¥è¿›è¡Œå®žç‰©æ›´æ–°è¯·æ±‚çš„åè°ƒä»¥åŠé›†ç¾¤æœ¬çœè¿è¡Œæ—¶åè°ƒï¼Œå› æ­¤ï¼Œå¯ä»¥è®¾ç½®è®© Leader æœåŠ¡å™¨ä¸æŽ¥å—å®¢æˆ·ç«¯çš„è¿žæŽ¥ï¼Œä»¥ä½¿å…¶ä¸“æ³¨äºŽè¿›è¡Œåˆ†å¸ƒå¼åè°ƒã€‚
+skipAcl,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: noï¼Œå¯ä»¥ä¸é…ç½®ï¼Œå¯é€‰é…ç½®é¡¹ä¸º"yes" å’Œ "no"ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: zookeeper.skipAclã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½® ZooKeeper æœåŠ¡å™¨æ˜¯å¦è·³è¿‡ ACL æƒé™æ£€æŸ¥ï¼Œé»˜è®¤æƒ…å†µä¸‹æ˜¯"no"ï¼Œå³ä¼šå¯¹æ¯ä¸€æ¬¡å®¢æˆ·ç«¯è¯·æ±‚è¿›è¡Œæƒé™æ£€æŸ¥ã€‚å¦‚æžœå°†å…¶è®¾ç½®ä¸º"yes"ï¼Œåˆ™èƒ½ä¸€å®šç¨‹åº¦çš„æé«˜ ZooKeeper çš„è¯»å†™æ€§èƒ½ï¼Œå•åŒæ—¶ä¹Ÿå°†å‘æ‰€æœ‰å®¢æˆ·ç«¯å¼€æ”¾ ZooKeeper çš„æ•°æ®ï¼ŒåŒ…æ‹¬é‚£äº›ä¹‹å‰è®¾ç½®è¿‡ ACL æƒé™çš„æ•°æ®èŠ‚ç‚¹ï¼Œä¹Ÿå°†ä¸åœ¨æŽ¥å—æƒé™æŽ§åˆ¶ã€‚
+cnxTimeout,è¯¥å‚æ•°æœ‰é»˜è®¤å€¼: 5000ï¼Œå•ä½æ˜¯æ¯«ç§’ï¼Œå¯ä»¥ä¸è®¾ç½®ï¼Œä»…æ”¯æŒç³»ç»Ÿå±žæ€§æ–¹å¼é…ç½®: zookeeper.cnxTimeoutã€‚è¯¥å‚æ•°ç”¨äºŽé…ç½®åœ¨ Leader é€‰ä¸¾è¿‡ç¨‹ä¸­ï¼Œå¦‚æœåŠ¡å™¨ä¹‹é—´è¿›è¡Œ TCP è¿žæŽ¥åˆ›å»ºçš„è¶…æ—¶æ—¶é—´ã€‚
+electionAlf,åœ¨ä¹‹å‰çš„ç‰ˆæœ¬ä¸­ï¼Œå¯ä»¥ä½¿ç”¨è¯¥å‚æ•°æ¥é…ç½®é€‰æ‹© ZooKeeper è¿›è¡Œ Leader é€‰ä¸¾æ—¶æ‰€ä½¿ç”¨çš„ç®—æ³•ï¼Œä½†ä»Ž 3.4.0 ç‰ˆæœ¬å¼€å§‹ï¼ŒZooKeeper åºŸå¼ƒäº†å…¶ä»–é€‰ä¸¾ç®—æ³•ï¼Œåªç•™ä¸‹ FastLeaderElection ç®—æ³•ï¼Œå› æ­¤è¯¥å‚æ•°ç›®å‰çœ‹æ¥æ²¡æœ‰ç”¨äº†ã€‚
 ,
 ,
-×÷Õß£ºÀÁ°©Õý»¼Õß,
-Á´½Ó£ºhttps://www.jianshu.com/p/41aa82d68a7e,
-À´Ô´£º¼òÊé,
-¼òÊéÖø×÷È¨¹é×÷ÕßËùÓÐ£¬ÈÎºÎÐÎÊ½µÄ×ªÔØ¶¼ÇëÁªÏµ×÷Õß»ñµÃÊÚÈ¨²¢×¢Ã÷³ö´¦¡£,
+
