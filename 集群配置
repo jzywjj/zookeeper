@@ -1,0 +1,30 @@
+实验环境
+主机名	系统	IP地址
+linux-node1	CentOS release 6.8	192.168.1.148
+linux-node2	CentOS release 6.8	192.168.1.149
+linux-node2	CentOS release 6.8	192.168.1.150
+
+
+
+Zookeeper配置文件修改
+#修改过后的配置文件zoo.cfg，如下：
+
+egrep -v "^#|^$" zoo.cfg
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataLogDir=/opt/zookeeper/logs
+dataDir=/opt/zookeeper/data
+clientPort=2181
+autopurge.snapRetainCount=500
+autopurge.purgeInterval=24
+server.1= 192.168.1.148:2888:3888
+server.2= 192.168.1.149:2888:3888
+server.3= 192.168.1.150:2888:3888
+#创建相关目录，三台节点都需要
+
+mkdir -p /opt/zookeeper/{logs,data}
+
+
+3.3、创建ServerID标识
+除了修改zoo.cfg配置文件外,zookeeper集群模式下还要配置一个myid文件,这个文件需要放在dataDir目录下。
